@@ -19,7 +19,7 @@ API REST para o gerenciamento do estoque do Mini Market, permitindo a realizaç�
 | `GET`   | `/products/:id`  | Retorna informações de um produto específico. |                                                                                     |
 | `POST`  | `/products`      | Cadastra um novo produto no estoque.          | `{ "name": "Desodorante", "category": "MERCEARIA", "price": 10.49, "quantity": 1 }` |
 | `PUT`   | `/products/:id`  | Atualiza informações de um produto existente. | `{ "id": 1, "price": 10.99, "quantity": 20 }`                                       |
-| `DELETE`| `/products/:id`  | Remove um produto do estoque.                 | `{ "id": 1 }`                                                                       |
+| `DELETE`| `/products`      | Remove um produto do estoque.                 | `{ "id": 1 }`                                                                       |
 
 ## 💻 Como Rodar o Projeto
 
