@@ -31,7 +31,7 @@ API REST para o gerenciamento do estoque do Mini Market, permitindo a realizaç�
 
 1. Clone o repositório:
 ```bash
-git clone <url-do-repositorio-backend>
+git clone https://github.com/luck128/mini_market_backend.git
 cd backend
 
 Instale as dependências:
